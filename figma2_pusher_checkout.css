@@ -231,7 +231,8 @@ position: absolute;
 
 .card-info form .input-expiryDate .input-cvv {
     margin-top: 2px;
-    /* position: absolute; */
+    
+    position: absolute;
 }
 
 .BlueArea {
