@@ -235,6 +235,50 @@ position: absolute;
     position: absolute;
 }
 
+.buyArea {
+    margin-top: 50px;
+}
+
+.buyArea .button {
+    width: 259px;
+    height: 52px;
+    color: darkgreen;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+  input[type="submit"] {
+    width: 269px;
+    height: 30px;
+    background-color: hsla(173, 96%, 28%, 1);
+    color: #fff; /* Text color */
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+  
+.need-help {
+    display: flex;
+    align-items: center;
+    margin-top: 1px;
+    margin-left: 30px;
+    
+}
+
+.need-help img {
+    margin-left: 28px;
+    width: 15px;
+    height: 15px;
+    margin-bottom: 12px;
+}
+ .help-text {
+    position: absolute;
+    margin-left: 50px;
+    font-size: 10px;
+ }
+
+
 .BlueArea {
     width: 250px;
     height: 550px;
@@ -321,4 +365,14 @@ hr {
     font-weight: bold;
     margin-left: 10px;
     border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+    color: hsla(200, 6%, 41%, 1);
+}
+footer .terms {
+    color: hsla(200, 49%, 38%, 1);
 }
